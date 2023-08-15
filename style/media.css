@@ -1,0 +1,179 @@
+@media (max-width: 1600px) {
+  .hero__title {
+    font-size: 40px;
+    max-width: 600px;
+  }
+
+  .btn {
+    font-size: 30px;
+  }
+
+  .hero {
+    background-position: 80% 50%;
+  }
+
+  .bonus__guide-num {
+    font-size: 90px;
+  }
+
+  .bonus-guide-text {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1320px) {
+  .bonus-guide-text {
+    font-size: 16px;
+  }
+
+  .bonus__guide-num {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .bonus__guide {
+    flex-direction: column;
+  }
+
+  .bonus__guide-item {
+    max-width: 100%;
+    height: 220px;
+    padding: 0 70px;
+  }
+
+  .big-arrow {
+    margin: 20px 0;
+    transform: rotate(90deg);
+  }
+
+  .hero__container {
+    margin-top: 50px;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero {
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 1123px) {
+  .footer__bot {
+    width: 100%;
+  }
+
+
+  .footer__bot-link {
+    max-width: 107px;
+  }
+
+  .header__link-em {
+    display: none;
+  }
+
+  .header__lang-strong {
+    display: none;
+  }
+
+  .header__link {
+    font-size: 16px;
+    color: #1B9DD9;
+  }
+
+  .sub-menu__list {
+    width: 100px;
+    left: -20%;
+  }
+
+  .sub-menu__wrapper {
+    padding: 10px 20px 0px 20px;
+  }
+
+  .sub-menu__link {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .header__lang-item {
+    font-size: 16px;
+  }
+
+  .header__logo {
+    max-width: 160px;
+  }
+
+  .hollow {
+    width: 40px;
+  }
+
+  .supporters {
+    padding: 40px 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero {
+    background-position: 50% 50%;
+    background-image: url(../img/main-bg-mob.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .hero__title {
+    font-size: 26px;
+    line-height: 122.52%;
+    max-width: 321px;
+  }
+
+  .btn {
+    font-size: 20px;
+    line-height: 122.52%;
+    padding: 18px 54px;
+  }
+
+  .bonus__title {
+    font-size: 20px;
+    line-height: 122.52%;
+  }
+
+  .bonus__guide-item {
+    max-width: 320px;
+    height: 220px;
+    padding: 0 30px;
+  }
+
+  .bonus__link {
+    font-size: 12px;
+    line-height: 122.52%;
+    margin-bottom: 40px;
+  }
+
+  .supporters__list {
+    margin: -20px -40px;
+  }
+
+  .supporter {
+    margin: 20px 20px;
+  }
+
+  .footer__copyright {
+    font-size: 16px;
+    line-height: 122.52%;
+  }
+
+  .footer__megapari {
+    font-size: 12px;
+    line-height: 122.52%;
+  }
+}
+
+@media (max-width: 350px) {
+  .hollow {
+    display: none;
+  }
+}
